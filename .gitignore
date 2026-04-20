@@ -1,0 +1,34 @@
+# Root project ignore file
+
+# ── Sensitive / generated env ─────────────────────────────────
+.env
+.env.local
+
+# ── Docker build caches ───────────────────────────────────────
+.docker/
+
+# ── IDE ───────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+
+# ── OS ────────────────────────────────────────────────────────
+Thumbs.db
+
+# ── Python artifacts (ML service) ────────────────────────────
+ml-service/venv/
+ml-service/.venv/
+ml-service/__pycache__/
+ml-service/*.pyc
+ml-service/data/
+ml-service/mlflow_tracking/
+ml-service/models/
+
+# ── Java artifacts (backend) ──────────────────────────────────
+backend/target/
+
+# ── Node artifacts (frontend) ─────────────────────────────────
+frontend/node_modules/
+frontend/dist/

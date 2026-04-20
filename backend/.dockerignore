@@ -1,0 +1,17 @@
+# ── Maven build outputs ───────────────────────────────────────
+target/
+
+# ── IDE / OS files ────────────────────────────────────────────
+.idea/
+*.iml
+.DS_Store
+.vscode/
+*.swp
+
+# ── Git ───────────────────────────────────────────────────────
+.git/
+.gitignore
+
+# ── Local env overrides ───────────────────────────────────────
+*.env
+application-local.properties
