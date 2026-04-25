@@ -8,7 +8,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                        Docker Network: sentimentiq-net          │
+│                     Docker Network: sentimentiq-net             │
 │                                                                 │
 │  ┌──────────────┐   /api   ┌──────────────┐  HTTP  ┌─────────┐  │
 │  │   Frontend   │ ───────► │   Backend    │ ──────►│   ML    │  │
